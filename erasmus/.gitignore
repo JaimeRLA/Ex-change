@@ -1,0 +1,17 @@
+# Secretos y entornos
+.env
+*.env
+.venv/
+
+# BD de desarrollo y ficheros generados
+db.sqlite3
+media/
+staticfiles/
+
+# Python cache y basura de editor/SO
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
